@@ -1,0 +1,11 @@
+[core]
+	editor="nano"
+	excludefiles=~/.gitignore_global
+[color]
+	ui = true
+[user]
+	name = Richard Fleming
+	email = rich.fleming@gmail.com
+[push]
+	default = simple
+
