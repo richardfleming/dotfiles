@@ -1,0 +1,37 @@
+## /home/rfleming/.nanorc
+
+## Constantly display the cursor position in the status bar.
+set const
+
+## Make the Home key smarter. When Home is pressed anywhere but at the 
+## very beginning of non-whitespace characters on a line, the cursor 
+## will jump to that beginning (either forwards or backwards). If the 
+## cursor is already at that position, it will jump to the true 
+## beginning of the line.
+set smarthome
+
+## Use smooth scrolling by default.
+set smooth
+
+## Use auto-indentation.
+set autoindent
+
+## Use a tab size of n columns. The value of n must be greater than 0. 
+## The default value is 8.
+set tabsize 2
+
+## Convert typed tabs to spaces.
+set tabstospaces
+
+## Enable ~/.nano_history for saving and reading search/replace strings.
+set historylog
+
+## Don't wrap text at all.
+set nowrap
+
+## Allow nano to be suspended.
+set suspend
+
+## Setup of syntax coloring.
+include "/usr/share/nano/*.nanorc"
+include "~/.nano/scopatz/*.nanorc"
