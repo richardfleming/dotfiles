@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Compton
+GenericName=Composite Manager
+Comment=Compositor for X
+Exec=/usr/bin/compton
+Terminal=false
+Type=Application
+StartupNotify=false
+OnlyShowIn=XFCE;
